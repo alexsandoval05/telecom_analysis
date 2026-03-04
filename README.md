@@ -13,10 +13,16 @@ usage.csv → detalle del uso real de los servicios (llamadas y mensajes)
 
 Para ello se implementaron las siguientes etapas de procesamiento de datos:
 
--
+- Cargar y Explorar datos:
+- Identificacion de problemas de calidad de datos: Revision de valores nulos
+- Deteccion de valores invalidos y sentineles
+- Revision y estandarizacion de fechas: Identifica fechas imposibles
+- Limpieza básica de datos: Corregir sentineles y fechas imposibles
+- Estadisticas de "uso" por usuario
+- Visualizacion de distribuciones: Uso, clientes y outliers.
+- Segmentacion de clientes por edad.
+- Visualizacion de segmentacion de clientes: Plan de uso y edad
 
-necesario explorar, limpiar y analizar estos datos para construir un perfil estadístico de los clientes, detectar comportamientos atípicos y crear segmentos de clientes.
+Para ejecutar el notebook vaya a google colab e ingrese el siguiente link del notebook:
 
-Este análisis permite identificar patrones de consumo, diseñar estrategias de retención y sugerir mejoras en los planes ofrecidos por la empresa.
-
-
+https://colab.research.google.com/drive/1-07JsKK1Uqa3Oc8fa7lPzwUdSu4koPJK
