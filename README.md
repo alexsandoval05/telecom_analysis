@@ -1,4 +1,4 @@
-# **Análisis Telecom en Latinoamerica**
+# **Análisis Telecom en Latinoamérica**
 
 🎯 **OBJETIVO:**
 
